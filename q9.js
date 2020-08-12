@@ -1,0 +1,10 @@
+var a=prompt("Enter the number 1:");
+var b=prompt("Enter the number 2:");
+var subtraction=parseInt(a)-parseInt(b);
+var multiply=parseInt(a)*parseInt(b);
+var division=parseInt(a)/parseInt(b);
+var modulus=parseInt(a)%parseInt(b);
+document.write("subtraction of "+a+"and "+b+"is "+subtraction);
+document.write("<br>multiply of "+a+"and "+b+"is "+multiply);
+document.write("<br>division of "+a+"and "+b+"is "+division);
+document.write("<br>modulus of "+a+"and "+b+"is "+modulus);
